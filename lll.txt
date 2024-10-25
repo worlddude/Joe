@@ -1,1 +1,1 @@
-$notify.showballoontip(10,"Windows Defender","Your computer has been hacked",
+$notify.showballoontip(10,"Windows Defender","Your computer has been hacked".

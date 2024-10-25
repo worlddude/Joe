@@ -1,7 +1,3 @@
-$notify = New-Object System.Windows.Forms.NotifyIcon
-$notify.Icon = [System.Drawing.SystemIcons]::Information
-$notify.BalloonTipTitle = "Windows Defender"
-$notify.BalloonTipText = "Your computer has been hacked"
-$notify.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning
-$notify.Visible = $true
-$notify.ShowBalloonTip(10)
+while ($true) {
+    [System.Windows.Forms.MessageBox]::Show("Your computer has been hacked!")
+}

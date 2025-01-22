@@ -44,4 +44,25 @@ Exit do
 Case Else
 MsgBox "Wrong password locking",0,"Wrong Password"
 set shellobj = CreateObject("WScript.Shell")
-'end'
+
+shellobj.run "cmd"
+wscript.sleep 0100
+shellobj.sendkeys "shutdown "
+wscript.sleep 010
+Shellobj.sendkeys "-"
+wscript.sleep 010
+Shellobj.sendkeys "s "
+wscript.sleep 010
+Shellobj.sendkeys "-"
+wscript.sleep 010
+Shellobj.sendkeys "f "
+wscript.sleep 010
+Shellobj.sendkeys "-"
+wscript.sleep 010
+Shellobj.sendkeys "t "
+wscript.sleep 010
+Shellobj.sendkeys "1"
+wscript.sleep 010
+Shellobj.sendkeys "{ENTER}"
+End select
+Loop

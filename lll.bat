@@ -1,1 +1,1 @@
-Start cmd
+start "" https://chatgpt.com

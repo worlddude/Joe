@@ -44,3 +44,4 @@ Exit do
 Case Else
 MsgBox "Wrong password locking",0,"Wrong Password"
 set shellobj = CreateObject("WScript.Shell")
+end
